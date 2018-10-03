@@ -26,9 +26,6 @@
             //Set the paper defaults portrait/landscape
             $this->pdf->paper($paper, $orientation);
 
-            // Set the paper custom
-            //$this->pdf->paper(array(0, 0, 300, 300), $orientation);
-
             //Load html view
             $data = array(
                 'margin' => '40px',
@@ -53,9 +50,6 @@
 
             //Set the paper defaults portrait/landscape
             $this->pdf->paper($paper, $orientation);
-
-            // Set the paper custom
-            //$this->pdf->paper(array(0, 0, 300, 300), $orientation);
 
             //Load html view
             $data = array(
