@@ -1,5 +1,4 @@
 # Codeigniter Dompdf Library
-=========================
 
 This is basically just a CI 3.0+ wrapper for the dompdf library. Very basic functions at the moment, you can find an example controller in the files.
 
