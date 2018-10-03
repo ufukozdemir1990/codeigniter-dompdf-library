@@ -34,7 +34,7 @@
             );
             $this->pdf->html($this->load->view('exemple-pdf', $data, true));
 
-            //PDF was successfully download
+            //PDF was successfully download and view
             if($this->pdf->create('download')) {
                 redirect();
             }
